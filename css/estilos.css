@@ -349,4 +349,31 @@ font-family:'Play', sans-serif;
 .page-content-wrapper .mision-vision-container .vision-container .vision-content .text-vision{
     padding: 80px;
 }
+/* ACCESORIOS-CASUAL-FORMAL */
+.page-content-wrapper .title-category{
+    text-align: center;
+    padding-top: 70px;
+}
+.page-content-wrapper .products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    padding: 50px;
+    width: 100%;
 
+}
+.page-content-wrapper .products-container .product{
+    
+    background-color:#fff;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #0D519B;
+
+}
+.page-content-wrapper .products-container .product img{
+    padding-top: 30px;
+}
+.page-content-wrapper .products-container .product .text-container p{
+    color: #898989;
+}
