@@ -20,6 +20,9 @@
     font-family: 'Play', sans-serif;
     
 }
+ .nav-bar li a{
+    color: #0D519B;
+}
 .main-top-right{
     align-items: center;
  
@@ -40,15 +43,14 @@
 }
 .element-right .atencion-content .atencion-text{
     align-items: center;
-    text-align: center;
+   
     
 }
 .element-right .atencion-content .atencion-text p{
     color:  #FFCC00;
     margin-bottom: 0;
     margin-top: 15px;
-    text-align: center;
-    align-items: center;
+  
 }
 .element-right .atencion-content .phone-text{
     color: white;
@@ -56,7 +58,6 @@
 .element-right .login-content{
     display: flex;
     align-items: center;
-    text-align: center;
    
 }
 
@@ -89,26 +90,6 @@
 .navigation-content .navigation-menu{
     padding-left: 6rem;
 }
-/* nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-  
-nav li {
-    flex: 1;
-    text-align: center;
-}
-  
-nav a {
-    display: block;
-    padding: 4.5rem;
-    justify-content: space-between;
-    text-decoration: none;
-    color: #0D519B;
-} */
   
 .navbar-nav .nav-link.active{
     color:rgba(0, 0, 0, 0.42);
@@ -159,20 +140,21 @@ nav a {
     font-size: 18px;
 }
 
-.page-content-wrapper .carousel-desk img{
+.page-content-wrapper .home-container .carousel-desk img{
     width: 100%;
     margin-top: 200px;
+    height: 35rem;
 }
 
 .carousel-inner img {
-    height: 680px;
+    height: 35rem;
 }
   .nosotros{
     display: flex;
 }
 
 .nosotros .carousel{
-   padding: 80px;
+   padding: 5rem;
 }
 .nosotros{
     font-family: 'Play', sans-serif;
@@ -229,15 +211,13 @@ nav a {
 
 .footer-container .logo-content{
    
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     height: 160px;
-    
     width: 400px;
     border-right: solid 3.2px #FFCC00;
     
 }
-
 
 .footer-container .logo-content img{
     margin-top: 70px;
@@ -314,47 +294,51 @@ font-family:'Play', sans-serif;
 
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 10rem;
     align-items: center;
+    padding: 4rem 0 4rem 25rem;
     
+}
+.page-content-wrapper .mision-vision-container .img-mision{
+    padding-right: 0rem;
 }
 .page-content-wrapper .mision-vision-container .mision-container .mision-content{
     display: flex;
     background-color: #D9D9D9;
-    width: 450px;
+    width: 500px;
     height: 300px;
-    text-align: center;
+    align-items: center;
     
 }
 .page-content-wrapper .mision-vision-container .mision-container .mision-content .text-mision{
-    padding: 80px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-.page-content-wrapper .mision-vision-container .mision-container .img-mision{
-    padding:100px 0 100px 400px;
-    
-}
+
 .page-content-wrapper .mision-vision-container .vision-container{
     display: flex;
     flex-direction: row-reverse;
-    gap: 120px;
-    align-items:center;
+    gap: 10rem;
+    align-items: center;
+    padding: 4rem 25rem 4rem 0rem;
 
+}
+.page-content-wrapper .mision-vision-container .img-vision{
+    padding-left: 0rem;
 }
 
 .page-content-wrapper .mision-vision-container .vision-container .vision-content{
     display: flex;
     background-color: #D9D9D9;
-    width: 450px;
+    width: 500px;
     height: 300px;
-    text-align: center;
     align-items:center;
 }
-.page-content-wrapper .mision-vision-container .vision-container .img-vision{
-    padding: 150px 400px 150px 150px;
-}
+
 
 .page-content-wrapper .mision-vision-container .vision-container .vision-content .text-vision{
-    padding: 80px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 /* ACCESORIOS-CASUAL-FORMAL */
 .page-content-wrapper .title-category{
@@ -383,4 +367,597 @@ font-family:'Play', sans-serif;
 }
 .page-content-wrapper .products-container .product .text-container p{
     color: #898989;
+}
+
+@media(max-width:1024px){
+    .element-right{
+        display: flex;
+        align-items: center;
+        padding-left: 20%;
+        gap: 6%;
+    }
+
+    .navigation-container{
+        position: relative;
+        z-index: 10000;
+        display: inline;
+        position: fixed;
+        font-family:'Play', sans-serif; ;
+        font-size: 22px;
+        width: 100%;
+        top: 100px;
+        align-items: center;
+        text-align: center;
+        background-color: #D9D9D9;
+    }
+    .navigation-content{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 100px;
+        background-color: #D9D9D9;
+        justify-content: space-between;
+    }
+    .navigation-content .navigation-menu{
+        padding-left: 2rem;
+    }
+    .navigation-menu .navbar-nav li{
+        padding-right: 2rem;
+    }
+    .navigation-content .navigation-cart{
+        display: flex;
+        gap: 10%;
+        padding-left: 0;
+        padding-right: 3rem;
+    }
+    /* aqui cambiar */
+    .nosotros .carousel{
+        padding: 2.5rem;
+     }
+    .nosotros .text-container{
+        padding:4rem 2rem 3rem 2rem ;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .nosotros .btn-more-info{
+        
+        text-align: center;
+        align-items: center;
+        
+    }
+    .nosotros .btn-more-info button{
+       
+        background: #ffffff00;
+        border-color: #0D519B;
+        width: auto;
+        height: auto;
+        border-width: 3px;
+        cursor: pointer;
+        
+        
+    }
+    .nosotros .btn-more-info .more-info p{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0px;
+        padding: 10px;
+        
+    }
+    /* FOOTER */
+    .footer-container .logo-content{
+   
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 160px;
+        width: 320px;
+        border-right: solid 3.2px #FFCC00;
+        
+    }
+    
+    .footer-container .logo-content img{
+        margin-top: 3.5rem;
+        margin-left: 1.5rem;
+    }
+    .footer-container .main-content{
+        align-items: center;
+        font-size: 16px;
+    }
+    .footer-container .main-content .item-content{
+        padding-left: 5px;
+    }
+    .footer-container .main-content .item-content .item-top{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .footer-container .main-content .item-content .item-top ul{
+        list-style: none;
+        padding: 20px;
+        color: #fff;
+    
+    }
+    
+    .footer-container .main-content .item-content .item-top ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer-container .main-content .item-content .item-abajo{
+        padding-left: 40px;
+    }
+    
+    .footer-container .main-content .email-content {
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    
+        
+    }
+    .footer-container .send-email{
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-container .send-email input{
+        border-radius: 4px 0 0 4px ;
+        border-width: 0px;
+        height: 40px;
+        
+    }
+    .footer-container .send-email input::placeholder{
+        padding-left: 20px;
+    }
+    .footer-container .send-email button{
+        width: 90px;
+        background-color: #FFCC00;
+        border-radius: 0 4px 4px 0;
+        border-width: 0px;
+        height: 40px;
+    }
+    .footer-container .social-media img{
+        height: 45px;
+        padding: 4px;
+    }
+
+    /* NOSOTROS-SOMOS*/
+    .page-content-wrapper .mision-vision-container .mision-container{
+
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        padding: 4rem 0 4rem 12rem;
+        
+    }
+    .page-content-wrapper .mision-vision-container .img-mision{
+        padding-right: 0rem;
+    }
+    .page-content-wrapper .mision-vision-container .mision-container .mision-content{
+        display: flex;
+        background-color: #D9D9D9;
+        width: 500px;
+        height: 300px;
+        align-items: center;
+        
+    }
+    .page-content-wrapper .mision-vision-container .mision-container .mision-content .text-mision{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .page-content-wrapper .mision-vision-container .vision-container{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10rem;
+        align-items: center;
+        padding: 4rem 5rem 4rem 0rem;
+    
+    }
+    .page-content-wrapper .mision-vision-container .img-vision{
+        padding-right: 2rem;
+    }
+    
+   .page-content-wrapper .formal-container img{
+    margin-top: 6rem;
+   }
+    
+    
+  
+}
+@media(max-width:768px){
+    .site-header .main-top-bar{
+        display: none;
+    }
+    
+    .navigation-container{
+        display: none;
+    }
+   
+   
+    .navbar-toggler:focus ~ .navbar-collapse .container.bg-color {
+        background-color: #fff; /* Cambiar a un color diferente */
+        height: 200px;
+     
+    }
+      /* ARREGLAR MENU HAMBURGUESA */
+    
+      
+    .site-header .main-top-mobile{
+        display: grid;
+        height: 6rem;
+        grid-template-columns: 0.5fr 1fr 1fr;
+        background-color: #0D519B;
+        align-items: center;
+        font-family: 'Play', sans-serif;
+    }
+    .page-content-wrapper .home-container .carousel-desk img{
+        width: 100%;
+        margin-top: 6rem;
+        height: 20rem;
+    }
+    .site-header .main-top-mobile .main-top-left-mobile img{
+        width: 220px;
+    }
+    .main-top-mobile .main-top-center-mobile{
+        display: flex;
+        
+    }
+    .main-top-mobile .main-top-center-mobile .atencion-content{
+        display: flex;
+        align-items: center;
+        width: 200px;
+    }
+    .main-top-mobile .main-top-center-mobile .atencion-content .atencion-text p{
+        color:  #FFCC00;
+        margin-bottom: 0;
+        margin-top: 15px;
+        font-size: 12px;
+        text-align: center;
+        align-items: center;
+    }
+    .main-top-mobile .main-top-center-mobile .atencion-content {
+        color: #fff;
+        font-size: 14px;
+       
+    }
+    .top-menu-content{
+       padding-top: 15px;
+    }
+    .main-top-mobile .main-top-center-mobile .atencion-content img{
+        height: 30px;
+    }
+    .main-top-mobile .main-top-center-mobile .navigation-cart{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    
+    .main-top-mobile .main-top-center-mobile .navigation-cart .btn-tiendas{
+        height: 3.5rem;
+        width: 11rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFCC00;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 15px 10px 12px;
+        cursor: pointer;
+        font-family:'Play', sans-serif; ;
+        color: #0D519B;
+        font-size: 13px;
+       
+    }
+    .main-top-mobile .main-top-center-mobile .navigation-cart .btn-tiendas img{
+        height: 30px;
+    }
+    .main-top-mobile .main-top-center-mobile .navigation-cart .btn-carrito{
+        height: 3rem;
+        width: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFCC00;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 15px 10px 12px;
+        cursor: pointer;
+        font-family:'Play', sans-serif; ;
+        color: #0D519B;
+        font-size: 15px;
+       
+    }
+    .main-top-mobile .main-top-center-mobile .navigation-cart .btn-carrito img{
+        height: 30px;
+    }
+    .main-top-mobile .top-menu-content{
+        padding-left: 15px;
+    }
+    .main-top-mobile .top-menu-content .login-content img{  
+        height: 40px;
+    }
+    .main-top-mobile .nav-bar .navbar{
+        flex-direction: row-reverse;
+    }
+   
+    .top-menu-content .nav-bar{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+  
+
+    /* aqui cambiar */
+    .nosotros .carousel{
+        padding-top: 5rem;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+     }
+     .nosotros .carousel img{
+        height: 450px;
+     }
+    .nosotros .text-container{
+        padding:6rem 1rem 3rem 0rem ;
+        text-align: center;
+        font-size: 12px;
+    }
+    /* Base styles */
+
+  
+  #menuToggle {
+    display: block;
+    
+    position: relative;
+    top: 50px;
+    left: 50px;  
+    z-index: 1;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+  }
+  
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  
+  #menuToggle a:hover {
+    color: #4f7794;
+  }
+  
+  
+  /* The hamburger button hidden inside an input element */
+  #menuToggle input {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: -5px;  
+    padding: 0;
+    cursor: pointer;  
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */  
+    -webkit-touch-callout: none;
+  }
+  
+  #menuToggle label {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  #menuToggle label span {
+    display: none;
+  }
+  
+  /*
+   * Hamburger
+   */
+  #menuToggle label div {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;  
+    z-index: 1;  
+    -webkit-transform-origin: 4px 0px;  
+        -ms-transform-origin: 4px 0px;  
+            transform-origin: 4px 0px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  #menuToggle label div:first-child {
+    -webkit-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  
+  #menuToggle label div:nth-child(2) {
+      -webkit-transform-origin: 0% 0%;
+        -ms-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  
+  /* 
+   * Change the color of the hamburger when toggled
+   */
+  #menuToggle input:checked + label div {
+    background: #232323;
+  }
+  
+  /*
+   * Use absolute positioning to place the menu off-screen
+   */
+  #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    /* Hide the menu off-screen to the left */
+    left: -100%;
+    -webkit-transition: left 0.3s ease;
+    -o-transition: left 0.3s ease;
+    transition: left 0.3s ease; 
+  }
+  
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  
+  /*
+   * Slide the menu in from left when the input is checked
+   */
+  #menuToggle input:checked ~ ul {
+    left: 0;
+  }
+   
+    /* FOOTER */
+    .footer-container .logo-content{
+   
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 160px;
+        width: 300px;
+        border-right: solid 3.2px #FFCC00;
+        
+    }
+    
+    .footer-container .logo-content img{
+        margin-top: 3.5rem;
+        margin-left: 0rem;
+    }
+    .footer-container .main-content{
+        align-items: center;
+        font-size: 14px;
+    }
+    .footer-container .main-content .item-content{
+        padding-left: 5px;
+    }
+    .footer-container .main-content .item-content .item-top{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .footer-container .main-content .item-content .item-top ul{
+        list-style: none;
+        padding: 10px;
+        color: #fff;
+    
+    }
+    
+    .footer-container .main-content .item-content .item-top ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer-container .main-content .item-content .item-abajo{
+        padding-left: 20px;
+    }
+    
+    .footer-container .main-content .email-content {
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0rem;
+        padding-right: 1.5rem;
+    
+        
+    }
+    .footer-container .send-email{
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+    
+    .footer-container .send-email input{
+        border-radius: 4px 0 0 4px ;
+        border-width: 0px;
+        height: 30px;
+        
+    }
+    .footer-container .send-email input::placeholder{
+        padding-left: 20px;
+    }
+    .footer-container .send-email button{
+        width: 70px;
+        background-color: #FFCC00;
+        border-radius: 0 4px 4px 0;
+        border-width: 0px;
+        height: 30px;
+    }
+    .footer-container .social-media img{
+        height: 35px;
+        padding: 4px;
+    }
+
+    /* NOSOTROS-SOMOS*/
+    .page-content-wrapper .mision-vision-container .mision-container{
+
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        padding: 4rem 0 4rem 12rem;
+        
+    }
+    .page-content-wrapper .mision-vision-container .img-mision{
+        padding-right: 0rem;
+    }
+    .page-content-wrapper .mision-vision-container .mision-container .mision-content{
+        display: flex;
+        background-color: #D9D9D9;
+        width: 500px;
+        height: 300px;
+        align-items: center;
+        
+    }
+    .page-content-wrapper .mision-vision-container .mision-container .mision-content .text-mision{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .page-content-wrapper .mision-vision-container .vision-container{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10rem;
+        align-items: center;
+        padding: 4rem 5rem 4rem 0rem;
+    
+    }
+    .page-content-wrapper .mision-vision-container .img-vision{
+        padding-right: 2rem;
+    }
+   .page-content-wrapper .formal-container .carousel-desk img{
+        width: 100%;
+        margin-top: 0px;
+        height: 20rem;
+    }
+   
+   
+}
+@media(min-width:1024px){
+   .main-top-mobile{
+    display: none;
+   }
+   .nav-bar{
+    display: none;
+   }
+    
 }
