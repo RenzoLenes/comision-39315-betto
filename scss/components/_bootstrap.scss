@@ -1,0 +1,21 @@
+header{
+    
+    .navbar{
+        font-size: 20px;
+        background-color: $gray-color;
+        padding-left: 5rem;
+        height: 80px;
+        ul{
+            li{
+                margin-right: 6rem;
+                a{
+                    color: $background-principal;
+                }
+                a:hover{
+                    color: whitesmoke;
+                }
+            }
+            
+        }
+    }
+}

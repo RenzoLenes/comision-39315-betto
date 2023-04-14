@@ -1,0 +1,41 @@
+header{
+    font-size: 16px;
+    .main-top-bar{
+        background-color: #0D519B;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        .main-top-left{
+            display: flex;
+            .atencion-container{
+                
+                img{
+                    height: 40px;
+                }
+                align-items: center;
+                display: flex;
+                .atencion-content{
+                    display: flex;
+                    flex-direction: column;
+                    p:nth-child(1){
+                        color: #fff;
+                        margin: 0;
+                        margin-top: 5px;
+                    }
+                    p:nth-child(2){
+                        color:$background-secondary;
+                    }
+                }
+            }
+            .login-container{
+                
+                    margin-left: 50px;
+                    margin-right: 20px;
+                
+            }
+            
+        }
+    }
+    
+}
