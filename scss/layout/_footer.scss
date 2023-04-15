@@ -1,0 +1,89 @@
+footer{
+    font-family: $fontPlay;
+    font-size: 18px;
+    .max-container{
+        background-color: $background-principal;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: #fff;
+        .main-content{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10rem ;
+            
+            .logo-content{
+                display:flex;
+                align-self: center;
+                
+            }
+            .item-content{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                .item-top{
+                    display: flex;
+                    ul{
+                        padding: 0;
+                        margin:1rem;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                            a:hover{
+                                color: rgba(0, 0, 0, 0.575);
+                            }
+                        }
+                    }
+                }
+                .item-bottom{
+                    p{
+                        margin: 1rem;
+                    }
+                   
+                }
+                
+            }
+            .email-content{
+                margin-left: 15rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                .send-email{
+                    display: flex;
+                    input{
+                        border-radius: 4px 0 0 4px ;
+                        border-width: 0px;
+                        height: 35px;
+                        
+                    }
+                    input::placeholder{
+                        padding-left: 20px;
+                    }
+                    button{
+                        padding: 0;
+                        width: 90px;
+                        background-color: $background-secondary;
+                        border-radius: 0 4px 4px 0;
+                        border-width: 0px;
+                       
+                    }
+                }
+                
+                .social-media{
+                    
+                    a{
+                        
+                        img{
+                            margin-top: 10px;
+                            height: 35px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

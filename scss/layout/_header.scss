@@ -1,11 +1,13 @@
 header{
     font-size: 16px;
+    font-family:$fontPlay;
     .main-top-bar{
-        background-color: #0D519B;
+        background-color: $background-principal;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+        width: 100%;
         .main-top-left{
             display: flex;
             .atencion-container{
@@ -19,12 +21,12 @@ header{
                     display: flex;
                     flex-direction: column;
                     p:nth-child(1){
-                        color: #fff;
+                        color:$background-secondary;
                         margin: 0;
                         margin-top: 5px;
                     }
                     p:nth-child(2){
-                        color:$background-secondary;
+                        color: #fff;
                     }
                 }
             }
@@ -32,6 +34,12 @@ header{
                 
                     margin-left: 50px;
                     margin-right: 20px;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        
+                    }
+                   
                 
             }
             

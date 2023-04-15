@@ -2,9 +2,25 @@ main{
     .carousel{
         .carousel-item{
             img{
-               max-height: 500px;
+               max-height: 700px;
             }
         }
        
+    }
+    .home-container{
+        margin: 8rem;
+        display: flex;
+        gap: 5rem;
+
+        .text-container{
+            margin: 5rem;
+            text-align: center;
+        }
+        
+        img{
+            width: 350px;
+        }
+
+        
     }
 }
