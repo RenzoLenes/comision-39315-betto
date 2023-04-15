@@ -3,11 +3,9 @@ header{
     font-family:$fontPlay;
     .main-top-bar{
         background-color: $background-principal;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 15px;
         width: 100%;
+        @include flex(column,wrap,space-between,center,none);
         .main-top-left{
             display: flex;
             .atencion-container{
@@ -15,11 +13,8 @@ header{
                 img{
                     height: 40px;
                 }
-                align-items: center;
-                display: flex;
+                @include flex(column,wrap,space-between,center,none);
                 .atencion-content{
-                    display: flex;
-                    flex-direction: column;
                     p:nth-child(1){
                         color:$background-secondary;
                         margin: 0;

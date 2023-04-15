@@ -1,0 +1,14 @@
+main{
+   
+    .products-container{
+        @include grid(3,space-between,center,2rem);
+        padding: 0 5rem 0 5rem;
+        margin-top: 2rem;
+        padding-bottom: 7rem;
+        .product{
+            align-items: center;
+            text-align: center;
+            border: 3px solid $background-principal;
+        }
+    }
+}

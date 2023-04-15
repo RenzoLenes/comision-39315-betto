@@ -1,0 +1,36 @@
+main{
+    font-family: $fontPoppins;
+    h1{
+        text-align: center;
+        padding: 2rem;
+    }
+    .visitanos-container{
+           
+            
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            
+        .tienda-container{
+            @include flex(column,wrap,space-between,center,none);
+            
+            border:solid 3px black;
+            margin:5rem 15rem 5rem 15rem;
+           .tienda-content{
+            margin: 2rem;
+            h2{
+                padding-bottom:1rem;
+            }
+            .info-content{
+                padding: 1rem;
+            }
+            .asesores-content{
+                padding: 1rem;
+            }
+           }
+           iframe{
+            margin: 2rem 5rem 2rem 0;
+           }
+            
+        }
+    }
+}
