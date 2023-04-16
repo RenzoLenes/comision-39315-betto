@@ -7,7 +7,7 @@ footer{
         width: 100%;
         color: #fff;
         .main-content{
-            @include flex(column,wrap,space-between,center,18rem);
+            @include flex(column,wrap,space-between,center,12rem);
             
             
             .logo-content{
@@ -45,7 +45,7 @@ footer{
             }
             .email-content{
                 margin-left: 15rem;
-                margin-top: 2rem;
+                margin-top: 1rem;
                 margin-bottom: 1rem;
                 .send-email{
                     display: flex;
