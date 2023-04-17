@@ -3,11 +3,12 @@ footer{
     font-size: 18px;
     .max-container{
         background-color: $background-principal;
-        @include flex(column,wrap,space-between,center,none);
-        width: 100%;
+        @include flex(column,none,space-between,center,none);
+        
         color: #fff;
         .main-content{
-            @include flex(column,wrap,space-between,center,12rem);
+            @include flex(column,none,space-between,center,none);
+            width: 82%;
             
             
             .logo-content{
