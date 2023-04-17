@@ -1,0 +1,93 @@
+@media(max-width:768px){
+    header{
+        font-size: 12px;
+        .navbar{
+            padding-left: 1.5rem;
+        }
+    }
+    main{
+        .carousel{
+            .carousel-item{
+                img{
+                    max-height: 400px;
+                }
+            }
+        }
+        .home-container{
+            margin: 2rem;
+            display: flex;
+            gap: 1rem;
+    
+            .text-container{
+                font-size: 0.67rem;
+                margin: 5rem 1.5rem 0 3rem;
+                
+            }
+            
+            img{
+                margin-top: 5rem;
+                max-width: 12rem;
+                height: 20rem;
+            }
+    
+            
+        }
+        .products-container{
+            gap: 1rem;
+        }
+        .visitanos-container{
+          
+            font-size: 12px;
+            .tienda-container{
+                margin: 2rem;
+                .tienda-content{
+                    margin-left: 1rem;
+                    max-width: 12rem;
+                    h2{
+                        font-size: 18px;
+                    }
+                }
+                iframe{
+                    margin-left: 2rem;
+                    max-width: 15rem;
+                    max-height: 15rem;
+                    
+                }
+            }
+            
+        }
+    }
+    footer{
+        font-size: 12px;
+        .max-container{
+            .main-content{
+                .logo-content{
+                    margin-right: 0.5rem;
+                }
+                .email-content{
+                   font-size: 12px;
+                    margin-left: 3rem;
+                   
+                    .send-email{
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                        input{
+                           width: 8rem;
+                            
+                        }
+                        input::placeholder{
+                            padding-left: 15px;
+                        }
+                        button{
+                            width: 4rem;
+                           
+                        }
+                    }
+                    
+    
+                }
+            }
+        }
+    }
+
+}
