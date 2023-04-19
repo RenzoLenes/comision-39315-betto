@@ -1,9 +1,37 @@
 @media(max-width:768px){
     header{
-        font-size: 12px;
+        font-size: 10px;
+        
         .navbar{
-            padding-left: 1.5rem;
+            padding-left: 1rem;
         }
+        .main-top-bar:nth-child(1){
+            a img{
+                width: 9rem;
+            }
+        }
+      
+        .main-top-bar{
+            padding: 1rem 0.4rem 1rem 0rem;
+            .main-top-left{
+                .login-container{
+                    margin-left: 1rem;
+                    margin-right: 0.5rem;
+                    img{
+                        height: 1.5rem;
+                    }
+                }
+                .atencion-container{
+                
+                    img{
+                     
+                        height: 1.5rem;
+                    }
+                }
+                
+            }
+        }
+        
     }
     main{
         .carousel{
@@ -17,7 +45,7 @@
             margin: 2rem;
             display: flex;
             gap: 1rem;
-    
+            
             .text-container{
                 font-size: 0.67rem;
                 margin: 5rem 1.5rem 0 3rem;
@@ -33,10 +61,18 @@
             
         }
         .products-container{
-            gap: 1rem;
+            @include grid(2,none,none,none);
+            .product{
+                img{
+                   width: 10rem;
+                }
+            }
+
         }
+        
         .visitanos-container{
           
+            
             font-size: 12px;
             .tienda-container{
                 margin: 2rem;
@@ -61,12 +97,21 @@
         font-size: 12px;
         .max-container{
             .main-content{
+                .item-content{
+                    .item-top{
+                        flex-direction: column;
+                    }
+                }
                 .logo-content{
                     margin-right: 0.5rem;
+                    img{
+                        width: 10rem;
+                    }
                 }
                 .email-content{
                    font-size: 12px;
-                    margin-left: 3rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
                    
                     .send-email{
                         font-size: 12px;
@@ -90,4 +135,43 @@
         }
     }
 
+}
+@media (max-width:480px){
+    main{
+        .home-container{
+            flex-direction: column;
+            img{
+                align-self: center;
+
+            }
+        }
+       
+    }
+    footer{
+        .max-container{
+            .main-content{
+                width: 100%;
+                .email-content{
+                    p{
+                        display: none;
+                    }
+                    .send-email{
+                        display: none;
+                    }
+                    .terms-conditions{
+                        display: none;
+                    }
+                   .social-media{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 1rem;
+                    align-self: center;
+                   }
+                
+                }
+            
+        }
+        }
+   
+    }
 }

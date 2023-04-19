@@ -1,9 +1,10 @@
 header{
     font-size: 16px;
     font-family:$fontPlay;
+    
     .main-top-bar{
         background-color: $background-principal;
-        padding: 15px;
+        padding: 1rem 1rem 1rem 0rem;
         width: 100%;
         @include flex(column,wrap,space-between,center,none);
         .main-top-left{
@@ -11,7 +12,7 @@ header{
             .atencion-container{
                 
                 img{
-                    height: 40px;
+                    height: 3rem;
                 }
                 @include flex(column,wrap,space-between,center,none);
                 .atencion-content{
@@ -27,8 +28,8 @@ header{
             }
             .login-container{
                 
-                    margin-left: 50px;
-                    margin-right: 20px;
+                    margin-left: 4rem;
+                    margin-right: 1.5rem;
                     a{
                         text-decoration: none;
                         color: #fff;

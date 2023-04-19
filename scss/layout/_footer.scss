@@ -1,6 +1,6 @@
 footer{
     font-family: $fontPlay;
-    font-size: 18px;
+    font-size: 16px;
     .max-container{
         background-color: $background-principal;
         @include flex(column,none,space-between,center,none);
@@ -8,7 +8,7 @@ footer{
         color: #fff;
         .main-content{
             @include flex(column,none,space-between,center,none);
-            width: 82%;
+            width: 100%;
             
             
             .logo-content{
@@ -45,7 +45,7 @@ footer{
                 
             }
             .email-content{
-                margin-left: 15rem;
+                margin-right: 5rem;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
                 .send-email{
