@@ -9,12 +9,29 @@ main{
         .product{
             align-items: center;
             text-align: center;
-            border: 3px solid $background-principal;
+            border: 3px solid black;
             
            
         }
+        
         .product:hover{
-            background-color: rgba(128, 128, 128, 0.205);
+            background-color: #ffcc0050;
+            transform: scale(1.05);
+            transition: 0.5s;
         }
+        .product .text-container button{
+            font-family: $fontPlay;
+            background-color: $background-principal;
+            color: #fff;
+            margin: 1.5rem;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            border-color: #ffffff00;
+
+            
+        }
+        .product .text-container button:hover{
+            background-color: rgba(0, 0, 0, 0.874);
+        }
+       
     }
 }
