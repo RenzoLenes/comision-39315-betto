@@ -1,15 +1,16 @@
-@mixin flex($direction,$wrap,$justify,$align,$gap){
-    display:flex;
+@mixin flex($direction, $wrap, $justify, $align, $gap) {
+    display: flex;
     direction: $direction;
-    flex-wrap:$wrap;
+    flex-wrap: $wrap;
     justify-content: $justify;
     align-items: $align;
-    gap:$gap;
+    gap: $gap;
 }
-@mixin grid($number,$justify,$align,$gap){
+
+@mixin grid($number, $justify, $align, $gap) {
     display: grid;
-    grid-template-columns: repeat($number,1fr);
-    justify-content:$justify;
+    grid-template-columns: repeat($number, 1fr);
+    justify-content: $justify;
     align-items: $align;
-    gap:$gap;
+    gap: $gap;
 }

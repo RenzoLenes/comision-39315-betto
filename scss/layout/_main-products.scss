@@ -1,25 +1,27 @@
-main{
-   
-    .products-container{
-        @include grid(3,none,none,2rem);
+main {
+
+    .products-container {
+        @include grid(3, none, none, 2rem);
         padding: 0 5rem 0 5rem;
         margin-top: 2rem;
         padding-bottom: 7rem;
         width: 100%;
-        .product{
+
+        .product {
             align-items: center;
             text-align: center;
             border: 3px solid black;
-            
-           
+
+
         }
-        
-        .product:hover{
+
+        .product:hover {
             background-color: #ffcc0050;
             transform: scale(1.05);
             transition: 0.5s;
         }
-        .product .text-container button{
+
+        .product .text-container button {
             font-family: $fontPlay;
             background-color: $background-principal;
             color: #fff;
@@ -27,11 +29,12 @@ main{
             padding: 0.5rem 1rem 0.5rem 1rem;
             border-color: #ffffff00;
 
-            
+
         }
-        .product .text-container button:hover{
+
+        .product .text-container button:hover {
             background-color: rgba(0, 0, 0, 0.874);
         }
-       
+
     }
 }

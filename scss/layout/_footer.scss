@@ -1,79 +1,93 @@
-footer{
+footer {
     font-family: $fontPlay;
     font-size: 16px;
-    .max-container{
+
+    .max-container {
         background-color: $background-principal;
-        @include flex(column,none,space-between,center,none);
-        
+        @include flex(column, none, space-between, center, none);
+
         color: #fff;
-        .main-content{
-            @include flex(column,none,space-between,center,none);
+
+        .main-content {
+            @include flex(column, none, space-between, center, none);
             width: 100%;
-            
-            
-            .logo-content{
-                display:flex;
+
+
+            .logo-content {
+                display: flex;
                 align-self: center;
-                
+
             }
-            .item-content{
+
+            .item-content {
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-                .item-top{
+
+                .item-top {
                     display: flex;
-                    ul{
+
+                    ul {
                         padding: 0;
-                        margin:1rem;
-                        li{
+                        margin: 1rem;
+
+                        li {
                             list-style: none;
-                            a{
+
+                            a {
                                 text-decoration: none;
                                 color: #fff;
                             }
-                            a:hover{
+
+                            a:hover {
                                 color: rgba(0, 0, 0, 0.575);
                             }
                         }
                     }
                 }
-                .item-bottom{
-                    p{
+
+                .item-bottom {
+                    p {
                         margin: 1rem;
                     }
-                   
+
                 }
-                
+
             }
-            .email-content{
+
+            .email-content {
                 margin-right: 5rem;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-                .send-email{
+
+                .send-email {
                     display: flex;
-                    input{
-                        border-radius: 4px 0 0 4px ;
+
+                    input {
+                        border-radius: 4px 0 0 4px;
                         border-width: 0px;
                         height: 35px;
-                        
+
                     }
-                    input::placeholder{
+
+                    input::placeholder {
                         padding-left: 20px;
                     }
-                    button{
+
+                    button {
                         padding: 0;
                         width: 90px;
                         background-color: $background-secondary;
                         border-radius: 0 4px 4px 0;
                         border-width: 0px;
-                       
+
                     }
                 }
-                
-                .social-media{
-                    
-                    a{
-                        
-                        img{
+
+                .social-media {
+
+                    a {
+
+                        img {
                             margin-top: 10px;
                             height: 35px;
                             padding-right: 10px;

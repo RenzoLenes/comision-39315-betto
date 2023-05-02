@@ -1,105 +1,121 @@
-@media (max-width:425px){
-    header{
+@media (max-width:460px) {
+    header {
         font-size: 8px;
-        .main-top-bar:nth-child(1){
-            a img{
+
+        .main-top-bar:nth-child(1) {
+            a img {
                 width: 7rem;
             }
         }
-        .navbar{
-            ul{
-                li{
-                    a{
+
+        .navbar {
+            ul {
+                li {
+                    a {
                         font-size: 12px;
                     }
                 }
             }
         }
-        .main-top-bar{
+
+        .main-top-bar {
             padding: 0;
-            .main-top-left{
+
+            .main-top-left {
                 font-size: 7px;
-                .atencion-container{
-                    .atencion-content{
+
+                .atencion-container {
+                    .atencion-content {
                         align-items: center;
                     }
-                    img{
-                        
+
+                    img {
+
                         height: 20px;
                         padding-bottom: 5px;
                     }
                 }
-                .login-container{
+
+                .login-container {
                     margin-left: 0.5rem;
                     margin-right: 0.5rem;
-                    img{
+
+                    img {
                         height: 20px;
                     }
                 }
             }
         }
-        .navbar{
+
+        .navbar {
             padding-left: 0rem;
         }
     }
-    main{
-        .carousel{
-            .carousel-item{
-                img{
+
+    main {
+        .carousel {
+            .carousel-item {
+                img {
                     max-height: 250px;
                 }
             }
         }
-        .home-container{
+
+        .home-container {
             margin: 2rem;
             display: flex;
             gap: 1rem;
-            
-            .text-container{
+
+            .text-container {
                 font-size: 0.67rem;
                 margin: 5rem 0.5rem 0 0.5rem;
-                
+
             }
-            
-           
-    
-            
+
+
+
+
         }
-        .products-container{
-            @include grid(1,none,none,none);
-            .product{
-                img{
-                   width: 10rem;
+
+        .products-container {
+            @include grid(1, none, none, none);
+
+            .product {
+                img {
+                    width: 10rem;
                 }
             }
 
         }
-        
-        .visitanos-container{
-          
+
+        .visitanos-container {
+
             font-size: 12px;
-            .tienda-container{
+
+            .tienda-container {
                 display: flex;
                 flex-direction: column;
                 margin: 2rem;
-                .tienda-content{
+
+                .tienda-content {
                     margin-left: 1rem;
                     max-width: 12rem;
-                    h2{
+
+                    h2 {
                         font-size: 18px;
                     }
                 }
-               
-                iframe{
+
+                iframe {
                     margin-left: 0.5rem;
                     margin-right: 0.5rem;
                     max-width: 12rem;
                     max-height: 15rem;
-                    
+
                 }
             }
-            
+
         }
     }
-  
+
 }

@@ -1,37 +1,44 @@
-main{
+main {
     font-family: $fontPoppins;
-    h1{
+
+    h1 {
         text-align: center;
         padding: 2rem;
     }
-    .visitanos-container{
-           
-            
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            
-        .tienda-container{
-            @include flex(column,wrap,space-between,center,none);
-            
-            border:solid 3px black;
-            margin:5rem 8rem 5rem 8rem;
-           .tienda-content{
-            margin: 1rem;
-            h2{
-                padding-bottom:1rem;
+
+    .visitanos-container {
+
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        .tienda-container {
+            @include flex(column, wrap, space-between, center, none);
+
+            border: solid 3px black;
+            margin: 5rem 8rem 5rem 8rem;
+
+            .tienda-content {
+                margin: 1rem;
+
+                h2 {
+                    padding-bottom: 1rem;
+                }
+
+                .info-content {
+                    padding: 1rem;
+                }
+
+                .asesores-content {
+                    padding: 1rem;
+                }
             }
-            .info-content{
-                padding: 1rem;
+
+            iframe {
+                margin: 2rem 4rem 2rem 0;
+                max-width: 28rem;
             }
-            .asesores-content{
-                padding: 1rem;
-            }
-           }
-           iframe{
-            margin: 2rem 4rem 2rem 0;
-            max-width: 28rem;
-           }
-            
+
         }
     }
 }

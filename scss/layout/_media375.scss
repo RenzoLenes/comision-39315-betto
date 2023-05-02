@@ -1,0 +1,44 @@
+@media (max-width:331px) {
+    header {
+        font-size: 8px;
+
+        .main-top-bar:nth-child(1) {
+            a img {
+                width: 6rem;
+            }
+        }
+
+        .navbar {
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .main-top-bar {
+            .main-top-left {
+                font-size: 7px;
+
+                .atencion-container {
+
+                    img {
+                        align-self: center;
+                        height: 15px;
+
+                    }
+                }
+
+                .login-container {
+                    align-self: center;
+                    height: 15px;
+
+                }
+            }
+        }
+
+    }
+
+}
